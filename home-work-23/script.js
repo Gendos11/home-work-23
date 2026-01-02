@@ -56,7 +56,7 @@ const uniqueUsernames = new UniqueUsernames()
 
 uniqueUsernames.addUser('john_doe')
 uniqueUsernames.addUser('jane_doe')
-uniqueUsernames.addUser('john_doe') // повтор — Set его не добавит второй раз
+uniqueUsernames.addUser('john_doe') // повтор 
 
 console.log(uniqueUsernames.exists('john_doe')) // true
 console.log(uniqueUsernames.exists('alex')) // false
